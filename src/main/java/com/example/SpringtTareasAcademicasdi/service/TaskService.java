@@ -3,9 +3,10 @@ package com.example.SpringtTareasAcademicasdi.service;
 import com.example.SpringtTareasAcademicasdi.entities.Task;
 import com.example.SpringtTareasAcademicasdi.repository.TaskRepository;
 import com.example.SpringtTareasAcademicasdi.service.Impl.ITaskService;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
-
+@Service
 public class TaskService implements ITaskService {
 
     private TaskRepository taskRepository;
