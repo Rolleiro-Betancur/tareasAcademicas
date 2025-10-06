@@ -1,9 +1,11 @@
 package com.example.SpringtTareasAcademicasdi.repository;
 
 import com.example.SpringtTareasAcademicasdi.entities.Task;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+@Repository
 public class TaskRepository {
 
     private List<Task> tareas = new ArrayList<>();
